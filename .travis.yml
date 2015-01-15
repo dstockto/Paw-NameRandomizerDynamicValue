@@ -7,3 +7,12 @@ before_script:
 - ./node_modules/.bin/cake archive
 script:
 - ./node_modules/.bin/cake test
+deploy:
+  provider: releases
+  api_key: "b63fd2bd089cd098d2d4615202dc7942f12cf7aa"
+  file: build/NameRandomizerDynamicValue.zip
+  skip_cleanup: true
+  on:
+    tags: true
+    all_branches: true
+    repo: dstockto/Paw-NameRandomizerDynamicValue
