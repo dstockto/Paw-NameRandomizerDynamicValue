@@ -1,0 +1,286 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/davidstockton/Projects/PAW Extensions/Random Names',
+5 verbose install   [ 'coffee-script', 'mkdirp', 'ncp' ] ]
+6 info preinstall Paw-NameRandomizerDynamicValue@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'ncp@~1.0.1', null ]
+9 verbose cache add name=undefined spec="ncp@~1.0.1" args=["ncp@~1.0.1",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'ncp@~1.0.1',
+10 verbose parsed url   path: 'ncp@~1.0.1',
+10 verbose parsed url   href: 'ncp@~1.0.1' }
+11 verbose cache add name="ncp" spec="~1.0.1" args=["ncp","~1.0.1"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '~1.0.1',
+12 verbose parsed url   path: '~1.0.1',
+12 verbose parsed url   href: '~1.0.1' }
+13 verbose addNamed [ 'ncp', '~1.0.1' ]
+14 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+15 verbose cache add [ 'coffee-script@latest', null ]
+16 verbose cache add name=undefined spec="coffee-script@latest" args=["coffee-script@latest",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'coffee-script@latest',
+17 verbose parsed url   path: 'coffee-script@latest',
+17 verbose parsed url   href: 'coffee-script@latest' }
+18 silly lockFile 39139b68-ncp-1-0-1 ncp@~1.0.1
+19 verbose lock ncp@~1.0.1 /Users/davidstockton/.npm/39139b68-ncp-1-0-1.lock
+20 verbose cache add name="coffee-script" spec="latest" args=["coffee-script","latest"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'latest',
+21 verbose parsed url   path: 'latest',
+21 verbose parsed url   href: 'latest' }
+22 verbose addNamed [ 'coffee-script', 'latest' ]
+23 verbose addNamed [ null, null ]
+24 silly lockFile 7e5ad31f-coffee-script-latest coffee-script@latest
+25 verbose lock coffee-script@latest /Users/davidstockton/.npm/7e5ad31f-coffee-script-latest.lock
+26 verbose cache add [ 'mkdirp@~0.5.0', null ]
+27 verbose cache add name=undefined spec="mkdirp@~0.5.0" args=["mkdirp@~0.5.0",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'mkdirp@~0.5.0',
+28 verbose parsed url   path: 'mkdirp@~0.5.0',
+28 verbose parsed url   href: 'mkdirp@~0.5.0' }
+29 verbose cache add name="mkdirp" spec="~0.5.0" args=["mkdirp","~0.5.0"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '~0.5.0',
+30 verbose parsed url   path: '~0.5.0',
+30 verbose parsed url   href: '~0.5.0' }
+31 verbose addNamed [ 'mkdirp', '~0.5.0' ]
+32 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+33 silly lockFile 3880d7a6-mkdirp-0-5-0 mkdirp@~0.5.0
+34 verbose lock mkdirp@~0.5.0 /Users/davidstockton/.npm/3880d7a6-mkdirp-0-5-0.lock
+35 silly addNameRange { name: 'ncp', range: '>=1.0.1-0 <1.1.0-0', hasData: false }
+36 info addNameTag [ 'coffee-script', 'latest' ]
+37 silly addNameRange { name: 'mkdirp', range: '>=0.5.0-0 <0.6.0-0', hasData: false }
+38 verbose request where is /coffee-script
+39 verbose request registry https://registry.npmjs.org/
+40 verbose request id e386526e68ebc134
+41 verbose url raw /coffee-script
+42 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+43 verbose url resolved https://registry.npmjs.org/coffee-script
+44 verbose request where is https://registry.npmjs.org/coffee-script
+45 info trying registry request attempt 1 at 01:03:21
+46 verbose etag "AZ9GUPCEW06D2LBDJ6SZMFJ6K"
+47 http GET https://registry.npmjs.org/coffee-script
+48 verbose request where is /ncp
+49 verbose request registry https://registry.npmjs.org/
+50 verbose url raw /ncp
+51 verbose url resolving [ 'https://registry.npmjs.org/', './ncp' ]
+52 verbose url resolved https://registry.npmjs.org/ncp
+53 verbose request where is https://registry.npmjs.org/ncp
+54 info trying registry request attempt 1 at 01:03:21
+55 verbose etag "798S99R5AI6FRGZ4RQOUS2J1U"
+56 http GET https://registry.npmjs.org/ncp
+57 verbose request where is /mkdirp
+58 verbose request registry https://registry.npmjs.org/
+59 verbose url raw /mkdirp
+60 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+61 verbose url resolved https://registry.npmjs.org/mkdirp
+62 verbose request where is https://registry.npmjs.org/mkdirp
+63 info trying registry request attempt 1 at 01:03:21
+64 verbose etag "2D34F8ZHOJZW738C8YLNEA018"
+65 http GET https://registry.npmjs.org/mkdirp
+66 http 304 https://registry.npmjs.org/mkdirp
+67 silly registry.get cb [ 304,
+67 silly registry.get   { date: 'Thu, 15 Jan 2015 08:03:21 GMT',
+67 silly registry.get     server: 'Apache',
+67 silly registry.get     via: '1.1 varnish',
+67 silly registry.get     'last-modified': 'Thu, 15 Jan 2015 08:02:52 GMT',
+67 silly registry.get     'cache-control': 'max-age=60',
+67 silly registry.get     etag: '"2D34F8ZHOJZW738C8YLNEA018"',
+67 silly registry.get     age: '29',
+67 silly registry.get     'x-served-by': 'cache-sjc3126-SJC',
+67 silly registry.get     'x-cache': 'HIT',
+67 silly registry.get     'x-cache-hits': '2',
+67 silly registry.get     'x-timer': 'S1421309001.506957,VS0,VE0',
+67 silly registry.get     vary: 'Accept',
+67 silly registry.get     'content-length': '0',
+67 silly registry.get     'keep-alive': 'timeout=10, max=50',
+67 silly registry.get     connection: 'Keep-Alive' } ]
+68 verbose etag https://registry.npmjs.org/mkdirp from cache
+69 http 304 https://registry.npmjs.org/coffee-script
+70 silly registry.get cb [ 304,
+70 silly registry.get   { date: 'Thu, 15 Jan 2015 08:03:21 GMT',
+70 silly registry.get     server: 'Apache',
+70 silly registry.get     via: '1.1 varnish',
+70 silly registry.get     'last-modified': 'Thu, 15 Jan 2015 08:03:21 GMT',
+70 silly registry.get     'cache-control': 'max-age=60',
+70 silly registry.get     etag: '"AZ9GUPCEW06D2LBDJ6SZMFJ6K"',
+70 silly registry.get     age: '5',
+70 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+70 silly registry.get     'x-cache': 'HIT',
+70 silly registry.get     'x-cache-hits': '1',
+70 silly registry.get     'x-timer': 'S1421309001.506949,VS0,VE0',
+70 silly registry.get     vary: 'Accept',
+70 silly registry.get     'content-length': '0',
+70 silly registry.get     'keep-alive': 'timeout=10, max=50',
+70 silly registry.get     connection: 'Keep-Alive' } ]
+71 verbose etag https://registry.npmjs.org/coffee-script from cache
+72 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0-0 <0.6.0-0', hasData: true }
+73 silly addNameRange versions [ 'mkdirp',
+73 silly addNameRange   [ '0.0.1',
+73 silly addNameRange     '0.0.2',
+73 silly addNameRange     '0.0.3',
+73 silly addNameRange     '0.0.4',
+73 silly addNameRange     '0.0.5',
+73 silly addNameRange     '0.0.6',
+73 silly addNameRange     '0.0.7',
+73 silly addNameRange     '0.1.0',
+73 silly addNameRange     '0.2.0',
+73 silly addNameRange     '0.2.1',
+73 silly addNameRange     '0.2.2',
+73 silly addNameRange     '0.3.0',
+73 silly addNameRange     '0.3.1',
+73 silly addNameRange     '0.3.2',
+73 silly addNameRange     '0.3.3',
+73 silly addNameRange     '0.3.4',
+73 silly addNameRange     '0.3.5',
+73 silly addNameRange     '0.4.0',
+73 silly addNameRange     '0.4.1',
+73 silly addNameRange     '0.4.2',
+73 silly addNameRange     '0.5.0' ] ]
+74 verbose addNamed [ 'mkdirp', '0.5.0' ]
+75 verbose addNamed [ '0.5.0', '0.5.0' ]
+76 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+77 verbose lock mkdirp@0.5.0 /Users/davidstockton/.npm/bf9ae38d-mkdirp-0-5-0.lock
+78 verbose addNamed [ 'coffee-script', '1.8.0' ]
+79 verbose addNamed [ '1.8.0', '1.8.0' ]
+80 silly lockFile d0d79082-coffee-script-1-8-0 coffee-script@1.8.0
+81 verbose lock coffee-script@1.8.0 /Users/davidstockton/.npm/d0d79082-coffee-script-1-8-0.lock
+82 silly lockFile d0d79082-coffee-script-1-8-0 coffee-script@1.8.0
+83 silly lockFile d0d79082-coffee-script-1-8-0 coffee-script@1.8.0
+84 silly lockFile 7e5ad31f-coffee-script-latest coffee-script@latest
+85 silly lockFile 7e5ad31f-coffee-script-latest coffee-script@latest
+86 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+87 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+88 silly lockFile 3880d7a6-mkdirp-0-5-0 mkdirp@~0.5.0
+89 silly lockFile 3880d7a6-mkdirp-0-5-0 mkdirp@~0.5.0
+90 http 200 https://registry.npmjs.org/ncp
+91 silly registry.get cb [ 200,
+91 silly registry.get   { date: 'Thu, 15 Jan 2015 08:03:21 GMT',
+91 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+91 silly registry.get     etag: '"5PWE0JCHBJH4X3M1B3AWEF0ZA"',
+91 silly registry.get     'content-type': 'application/json',
+91 silly registry.get     'cache-control': 'max-age=60',
+91 silly registry.get     'content-length': '25194',
+91 silly registry.get     'accept-ranges': 'bytes',
+91 silly registry.get     via: '1.1 varnish',
+91 silly registry.get     age: '54',
+91 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+91 silly registry.get     'x-cache': 'HIT',
+91 silly registry.get     'x-cache-hits': '3',
+91 silly registry.get     'x-timer': 'S1421309001.512736,VS0,VE0',
+91 silly registry.get     vary: 'Accept',
+91 silly registry.get     'keep-alive': 'timeout=10, max=50',
+91 silly registry.get     connection: 'Keep-Alive' } ]
+92 silly addNameRange number 2 { name: 'ncp', range: '>=1.0.1-0 <1.1.0-0', hasData: true }
+93 silly addNameRange versions [ 'ncp',
+93 silly addNameRange   [ '0.0.0',
+93 silly addNameRange     '0.0.1',
+93 silly addNameRange     '0.0.2',
+93 silly addNameRange     '0.1.0',
+93 silly addNameRange     '0.1.1',
+93 silly addNameRange     '0.1.2',
+93 silly addNameRange     '0.2.0',
+93 silly addNameRange     '0.2.1',
+93 silly addNameRange     '0.2.2',
+93 silly addNameRange     '0.2.3',
+93 silly addNameRange     '0.2.4',
+93 silly addNameRange     '0.2.5',
+93 silly addNameRange     '0.2.6',
+93 silly addNameRange     '0.3.0',
+93 silly addNameRange     '0.4.0',
+93 silly addNameRange     '0.2.7',
+93 silly addNameRange     '0.4.1',
+93 silly addNameRange     '0.4.2',
+93 silly addNameRange     '0.5.0',
+93 silly addNameRange     '0.5.1',
+93 silly addNameRange     '0.6.0',
+93 silly addNameRange     '1.0.0',
+93 silly addNameRange     '1.0.1' ] ]
+94 verbose addNamed [ 'ncp', '1.0.1' ]
+95 verbose addNamed [ '1.0.1', '1.0.1' ]
+96 silly lockFile 8c7f3829-ncp-1-0-1 ncp@1.0.1
+97 verbose lock ncp@1.0.1 /Users/davidstockton/.npm/8c7f3829-ncp-1-0-1.lock
+98 silly lockFile 112b3a05-stry-npmjs-org-ncp-ncp-1-0-1-tgz https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+99 verbose lock https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz /Users/davidstockton/.npm/112b3a05-stry-npmjs-org-ncp-ncp-1-0-1-tgz.lock
+100 verbose addRemoteTarball [ 'https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz',
+100 verbose addRemoteTarball   'd15367e5cb87432ba117d2bf80fdf45aecfb4246' ]
+101 info retry fetch attempt 1 at 01:03:21
+102 verbose fetch to= /var/folders/59/t78f_q391kn0bvwq0tjl7yb40000gn/T/npm-37240-hmSOpYqH/registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+103 http GET https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+104 http 200 https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+105 silly lockFile 112b3a05-stry-npmjs-org-ncp-ncp-1-0-1-tgz https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+106 silly lockFile 112b3a05-stry-npmjs-org-ncp-ncp-1-0-1-tgz https://registry.npmjs.org/ncp/-/ncp-1.0.1.tgz
+107 silly lockFile 8c7f3829-ncp-1-0-1 ncp@1.0.1
+108 silly lockFile 8c7f3829-ncp-1-0-1 ncp@1.0.1
+109 silly lockFile 39139b68-ncp-1-0-1 ncp@~1.0.1
+110 silly lockFile 39139b68-ncp-1-0-1 ncp@~1.0.1
+111 error Error: EACCES, mkdir '/Users/davidstockton/.npm/ncp/1.0.1'
+111 error  { [Error: EACCES, mkdir '/Users/davidstockton/.npm/ncp/1.0.1']
+111 error   errno: 3,
+111 error   code: 'EACCES',
+111 error   path: '/Users/davidstockton/.npm/ncp/1.0.1',
+111 error   parent: 'Paw-NameRandomizerDynamicValue' }
+112 error Please try running this command again as root/Administrator.
+113 error System Darwin 14.0.0
+114 error command "node" "/usr/local/bin/npm" "install"
+115 error cwd /Users/davidstockton/Projects/PAW Extensions/Random Names
+116 error node -v v0.10.33
+117 error npm -v 1.4.28
+118 error path /Users/davidstockton/.npm/ncp/1.0.1
+119 error code EACCES
+120 error errno 3
+121 error stack Error: EACCES, mkdir '/Users/davidstockton/.npm/ncp/1.0.1'
+122 verbose exit [ 3, true ]
