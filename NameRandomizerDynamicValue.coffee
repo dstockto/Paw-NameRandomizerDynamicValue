@@ -29,7 +29,8 @@ NameRandomizerDynamicValue = () ->
         "Easton", "Eva", "Jase", "Faith", "Carson", "Madeline", "Nathaniel", 
         "Lauren", "Jaxson", "Nicole", "Kayden", "Ruby", "Brody", "Makayla", 
         "Lincoln", "Kayla", "Luis", "Lydia", "Tristan", "Piper", "Damian", "Sydney", 
-        "Camden", "Jocelyn", "Juan", "Morgan"]
+        "Camden", "Jocelyn", "Juan", "Morgan", "Bob", "Joey", "Elliot", "Alana", 
+        "Sierra", "Nyah", "Rhianna", "Sam", "Timothy", "Isabelle", "Tierra", "Arley"]
 
     @lastnames = ["Smith", "Johnson", "Williams", "Jones", "Brown", "Davis", "Miller", 
             "Wilson", "Moore", "Taylor", "Anderson", "Thomas", "Jackson", "White", 
@@ -44,7 +45,8 @@ NameRandomizerDynamicValue = () ->
             "Sanders", "Price", "Bennett", "Wood", "Barnes", "Ross", "Henderson", "Coleman", 
             "Jenkins", "Perry", "Powell", "Long", "Patterson", "Hughes", "Flores", 
             "Washington", "Butler", "Simmons", "Foster", "Gonzales", "Bryant", "Alexander", 
-            "Russell", "Griffin", "Diaz", "Hayes"]
+            "Russell", "Griffin", "Diaz", "Hayes", "Myer" "Daniels", "Wheeler", "Purcell",
+            "Soto", "Salazar", "Franklin", "Curtis", "Douglas"]
     
     @evaluate = () ->
         first_idx = Math.floor(Math.random() * @firstnames.length)
