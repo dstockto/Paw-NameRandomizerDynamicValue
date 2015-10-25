@@ -1,4 +1,4 @@
-NameRandomizerDynamicValue = () ->
+fNameRandomizerDynamicValue = () ->
 
     @firstnames = ["Noah", "Sophia", "Liam", "Emma", "Jacob", "Olivia", "Mason", 
         "Isabella", "William", "Ava", "Ethan", "Mia", "Michael", "Emily",
@@ -30,7 +30,8 @@ NameRandomizerDynamicValue = () ->
         "Lauren", "Jaxson", "Nicole", "Kayden", "Ruby", "Brody", "Makayla", 
         "Lincoln", "Kayla", "Luis", "Lydia", "Tristan", "Piper", "Damian", "Sydney", 
         "Camden", "Jocelyn", "Juan", "Morgan", "Bob", "Joey", "Elliot", "Alana", 
-        "Sierra", "Nyah", "Rhianna", "Sam", "Timothy", "Isabelle", "Tierra", "Arley"]
+        "Sierra", "Nyah", "Rhianna", "Sam", "Timothy", "Isabelle", "Tierra", "Arley", 
+        "Victor", "Gabriella", "Vannessa", "Catherine", "Kyle", "Kai", "Luca" ]
 
     @lastnames = ["Smith", "Johnson", "Williams", "Jones", "Brown", "Davis", "Miller", 
             "Wilson", "Moore", "Taylor", "Anderson", "Thomas", "Jackson", "White", 
